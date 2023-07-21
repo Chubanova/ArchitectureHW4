@@ -1,6 +1,8 @@
 package com.chubanova.rotate;
 
-public class Rotate {
+import com.chubanova.Command;
+
+public class Rotate implements Command {
     Rotatable r;
     public Rotate(Rotatable r) {
         this.r = r;
