@@ -1,6 +1,8 @@
 package com.chubanova.move;
 
-public class Move {
+import com.chubanova.Command;
+
+public class Move implements Command {
     Movable m;
 
     public Move(Movable m) {
